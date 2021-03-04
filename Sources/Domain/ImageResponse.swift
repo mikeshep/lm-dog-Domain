@@ -8,7 +8,7 @@
 import Foundation
 
 // MARK: - ImageResponse
-struct ImageResponse: Codable {
-    let message: String
+public struct ImageResponse: Codable {
+    public let message: String
     let status: String
 }

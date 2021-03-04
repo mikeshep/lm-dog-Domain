@@ -8,7 +8,7 @@
 import Foundation
 
 // MARK: - BreedsResponse
-struct BreedsResponse: Codable {
-    let message: [String: [String]]
+public struct BreedsResponse: Codable {
+    public let message: [String: [String]]
     let status: String
 }

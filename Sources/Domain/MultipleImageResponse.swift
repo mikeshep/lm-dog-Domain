@@ -8,8 +8,8 @@
 import Foundation
 
 // MARK: - MultipleImageResponse
-struct MultipleImageResponse: Codable {
-    let message: [String]
+public struct MultipleImageResponse: Codable {
+    public let message: [String]
     let status: String
 }
 
