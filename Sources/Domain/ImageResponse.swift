@@ -9,6 +9,6 @@ import Foundation
 
 // MARK: - ImageResponse
 public struct ImageResponse: Codable {
-    public let message: String
+    public let message: URL
     let status: String
 }

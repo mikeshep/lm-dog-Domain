@@ -9,7 +9,7 @@ import Foundation
 
 // MARK: - MultipleImageResponse
 public struct MultipleImageResponse: Codable {
-    public let message: [String]
+    public let message: [URL]
     let status: String
 }
 
